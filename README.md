@@ -1,8 +1,8 @@
 # DSL
 DSL AUTOMOTIVE - dslautomotive.co.nz
 
-Major developments to INDEX/landing page and Mechanic-services.php
+Major developments to service pages: turbo, injection and mechanic
 plan from here:
--duplicate Mechanic-services.php 3X to make pages for Diesel Injection, Turbos and ARB 4x4 Accessories as they have the same layout.
+-only have to create ARB 4x4 Accessories for service pages.
 
--create a page for About and copy it 2X for contact and testimonials
+-create a page for About and copy it 2X for contact, testimonials, site map and privacy policy.

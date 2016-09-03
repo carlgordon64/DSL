@@ -15,6 +15,9 @@ $Lerpcolor= dechex(rand(0x000000, 0xFFFFFF));
 $Chosencolor= "#80dfd6";
 $Welcome_image="http://www.dslautomotive.co.nz/images/1208/477/hp-gallery01.jpg?h=6122db3a";
 $Mechanic_image="http://www.dslautomotive.co.nz/images/1099/386/boschservicecentre2.jpg?h=806c9da7";
+$Injection_image="http://www.dslautomotive.co.nz/images/1099/386/fuelnozzle.jpg?h=8f3025ea";
+$Turbo_image="http://www.dslautomotive.co.nz/images/1099/386/turbocharger2.jpg?h=681757e9";
+
 $Banner_image="http://www.dslautomotive.co.nz/images/0/0/dc-45900201/header.png";
 $FootBanner_image="http://www.dslautomotive.co.nz/images/1100/259/hp-img-brands2.gif?h=e6fa9deb";
 
@@ -67,7 +70,7 @@ textarea {
   margin-top:10px;
   width:auto;
   color:#000;
-  
+
   border-bottom-right-radius:10px;
   border-bottom-left-radius:10px;
   border-top-left-radius:10px;
@@ -203,8 +206,20 @@ background-position: 50 50;
 }
 #mechanic{
     background-image: url("<?=$Mechanic_image?>");
-    background-size: 1099px 386px;
-    background-repeat: repeat;
+    background-size: 1100px 386px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#injection{
+    background-image: url("<?=$Injection_image?>");
+    background-size: 1100px 386px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#turbos{
+    background-image: url("<?=$Turbo_image?>");
+    background-size: 1100px 386px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 

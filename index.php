@@ -43,13 +43,22 @@ error_reporting(0);
 //HEADER
 include ("includes/header.php");
 //WELCOME IMG BANNER
+?>
+<div style="max-width: 1208px;
+  margin:auto;">
+<?
 include ("includes/welcome.php");
 //MAIN INDEX CONTENT
 include ("includes/landing.php");
 //FOOTER
+?>
+</div>
+</div>
+<?
 include ("includes/footer.php");
 
 ?>
+
 </div>
 </body>
 <script src="https://code.jquery.com/jquery.js"></script>

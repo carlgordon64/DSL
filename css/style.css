@@ -1581,6 +1581,9 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+#stylebod .row{
+max-width: 1045px;
+}
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -7418,6 +7421,7 @@ background-color: transparent;
 }
 li{
   font-size:18px;
+  margin-left: 20px;
 }
 /*CUSTOMHEADER*/
 .navbar-default{

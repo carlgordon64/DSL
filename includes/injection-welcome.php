@@ -24,17 +24,17 @@ if ($conn->connect_error) {
 </head>
 <body id="stylebod">
 <!--body below-->
-<div id="mechanic"style="width:95%; margin:auto;margin-top:-20px; background-color:#2a035d;">
+<div id="injection"style="width:95%; margin:auto;margin-top:-20px; background-color:#2a035d;">
 <div id="welcometint">
         <div id="resizer"style="">
 		<div class="row">
 <div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;color:white;">
-<p id="webfont_small"style="color:#fff; text-align:center;">DSL Automotive is Hawke’s Bay 
-Longest serving authorised BOSCH  workshop</p>
-<p id="webfont_tiny"style="color:#fff; text-align:center;">
+<p id="webfont_small"style="color:#2a035d; text-align:center;">Diagnose and repair of performance parts nationwide
+Authorised dealer for all major fuel injection manufacturers</p>
+<p id="service_text"style="color:#2a035d; text-align:center;">
 •  Specialists in diesel and petrol   •  In house chassis Dynamometer   • 
 </p>
-<p id="service-text"style="color:#fff; text-align:center;">
+<p style="color:#2a035d; font-size:16px; text-align:center;">
 Performing automotive repairs,  electronic diagnostics,  performance car tuning, 
 diesel fuel injection, pump and turbocharger installation and  repairs. 
 		</p>
@@ -97,61 +97,25 @@ echo "<p>Please fill out details<p>";
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-8" style="padding-left:40px;">
+	<div class="col-sm-12" style="padding-left:40px;">
+
 <p id="webfont_small" style="color:#2a035d">
-	DSL Automotive provides professional vehicle servicing and repairs
+	Bosch Diesel Service Centre
 </p>
+<li>
 <p id="" style="color:#2a035d;font-size:18px;">
-Our technicians regularly travel to Australia to train in the ever evolving new technologies that are always emerging in the industry and can provide you and your vehicle the highest quality professional mechanic services.
+DSL Automotive is proud to be Hawke's Bay's longest standing Authorised Bosch Service Dealer. With State-of-the-art Bosch test equipment DSL Automotive is able to perform component repair and testing.
 </p>
-<div class="breaker"></div>
-     <li>
-	Automotive repairs
-	    </li>
-	    <li>
-    Electronic Diagnostics - Diagnosis of vehicle electronics
+</li>
+<li>
+<p id="" style="color:#2a035d;font-size:18px;">
+Bosch is the biggest car parts manufacturer in the world offering a wide range of vehicle parts and diagnostic equipment. Trust DSL Automotive for expert maintenance and repair of all diesel systems and makes. </p>
     </li>
-    <li>
-    Turbochargers -  Holset IHI and Garrett Authorised Centre
-    </li>
-    <li>
-    Pre purchase engine appraisals 
-    </li>
-    <li>
-    Vehicle Servicing
-    </li>
-    <li>
-    Brake service
-    </li>
-    <li>
-    EFI Fuel Injector Cleaning
-    </li>
-    <li>
-    Mechanical Repairs
-    </li>
-    <li>
-    Maintenance and inspection
-    </li>
-    <li>
-    Petrol injection service
-    </li>
-    <li>
-    Diesel vehicle service
-    </li>
-    <li>
-    Common rail repairs 
-    </li>
-    <br>
-    </div>
-<div class="col-sm-4" style="height:auto;">
-<div style="background-image:url('img/mechanic-1.png'); margin:auto; width:300px; height:354px;"></div>
-</div>
-</div>
-<div class="col-sm-4" style="height:auto; ">
-<div style="background:#000; width:300px; margin:auto;">
-<p style="color:#000; background:#fff; padding-top:10px;padding-bottom:10px;">As members of YES (Your Electronic Specialists) DSL Automotive is  certified to diagnose and repair your vehicles electronic problems.</p>
-<div style="background:#000; background-image:url('http://www.dslautomotive.co.nz/images/227/90/yes-colour.png?h=a9a01292'); right:0; margin:auto; width:227px; height:90px;"></div>
-</div>
+    
+    <div class="breaker" style="width:95%;"></div>
+    
+    <p id="" style="color:#000; text-align:center;font-size:19px;">
+DSL Automotive is certified for Test Bench type BOSCH 815kmm - achieved tooling and testing equipment criteria. 
 </div>
 </div>
 </div>
@@ -164,52 +128,36 @@ Our technicians regularly travel to Australia to train in the ever evolving new 
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" style="padding-left:10px;">
 <p id="webfont_small" style="color:#2a035d">
-	Common car part failures that DSL Automotive can fix for you
+	Steinbauer modules - Diesel power upgrades
 </p>
 <p id="" style="color:#2a035d;font-size:18px;">
 Slide show of parts</p>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" style="max-width:100%;"class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/part-slide1.png" alt="Chania">
-      <div class="carousel-caption">
-        <h3>Turbo seal</h3>
-        <p>Turbo seal leaking</p>
-      </div>
+      <img src="img/steinbauer1.png" alt="Chania">
+      
     </div>
 
     <div class="item">
-      <img src="img/part-slide2.png" alt="Chania">
-      <div class="carousel-caption">
-        <h3>Rail pump</h3>
-        <p >Failed common rail pump.</p>
-      </div>
+      <img src="img/steinbauer2.png" alt="Chania">
+      
     </div>
 
     <div class="item">
-      <img src="img/part-slide3.png" alt="Flower">
-      <div class="carousel-caption">
-        <h3>Injection pump</h3>
-        <p>Water contamination of injection pump.</p>
-      </div>
+      <img src="img/steinbauer3.png" alt="Flower">
+     
     </div>
 
-    <div class="item">
-      <img src="img/part-slide4.png" alt="Flower">
-      <div class="carousel-caption">
-        <h3>Injector</h3>
-        <p>Compression leak around injector.</p>
-      </div>
-    </div>
+ 
   </div>
 
   <!-- Left and right controls -->
@@ -223,8 +171,9 @@ Slide show of parts</p>
   </a>
 </div>
     </div>
-
+<p style="font-size:16px; padding:20px;">Get up to 20% more torque with a Steinbauer  power enhancement module for passenger vehicles and up to 50% more torque with the Defender Kit Turbo-charger upgrade and improve the performance of your diesel engine.  Steinbauer modules don't change rail pressure, the performance enhancement is achieved by changing the injection duration. This method is the same way the system was originally designed to operate, also allowing precise fuel control throughout the full rpm range of the engine.</p>
 </div>
+<p style="font-size:16px; text-align:center; padding:20px;">For more information about Steinbauer modules contact DSL Automotive today.</p>
 </div>
 </div>
 </div>
@@ -235,33 +184,27 @@ Slide show of parts</p>
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" style="padding-left:10px;">
 <p id="webfont_small" style="color:#2a035d">
-	Performance Car Tuning for precision and economy
+	Authorised workshop agencies for all main fuel injection manufacturers
 </p>
-<div class="col-sm-4"><p style="color:#2a035d; font-size:18px;">
-	DSL Automotive have Hawke's Bay's only 4wd chassis dynamometer. We can test drive your vehicle under all load conditions without even leaving the workshop. 
-</p>
+<div class="col-sm-12"><p style="color:#2a035d; font-size:18px;">
+DSL Automotive is an Authorised Service Dealer for -</p>
 <div class="breaker"></div>
-<p style="color:#2a035d; font-size:18px;">
-DSL Automotive has partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
-</p>
-<div class="breaker"></div>
-
-<li>Performance Car Tuning</li>
-<li>Tune ups</li>
+    <li> Bosch </li>
+    <li>  Delphi </li>
+    <li>  Lucas </li>
+    <li>  Denso </li>
+    <li>  Zexel  </li>
+    <li> Stanadyne </li>
 
 
 </div>
-<div class="col-sm-8"><div style="background-image:url('http://www.dslautomotive.co.nz/images/600/338/dynamometer.jpg?h=09712166'); background-repeat:no-repeat;margin:auto; max-width:600px;width:100%; height:338px;">
-	
-	<p style="color:#f5e901; font-size:18px; background:rgba(0,0,0,0.8);padding:0px 5px 0px 5px;">
-The tuning of your engine has a huge effect on the way your car drives.
-</p> 
+
 </div>
-</div>
+
 <div class="col-sm-12">
+<div class="breaker"></div>
 	<p style="color:#2a035d; font-size:18px; padding:20px;">
-Or find out more information about DSL Automotive's fuel injection and diesel power upgrades or ARB 4x4 accessories.
-</p>
+For more information about our diesel fuel injection service or our mechanic and performance tuning services contact DSL Automotive today.</p>
 </div>
    </div>
    </div>

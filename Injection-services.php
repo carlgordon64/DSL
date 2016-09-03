@@ -47,7 +47,7 @@ include ("includes/header.php");
 <div style="max-width: 1100px;
   margin:auto;">
 <?
-include ("includes/mechanic-welcome.php");
+include ("includes/injection-welcome.php");
 //FOOTER
 ?>
 
