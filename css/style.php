@@ -17,6 +17,7 @@ $Welcome_image="http://www.dslautomotive.co.nz/images/1208/477/hp-gallery01.jpg?
 $Mechanic_image="http://www.dslautomotive.co.nz/images/1099/386/boschservicecentre2.jpg?h=806c9da7";
 $Injection_image="http://www.dslautomotive.co.nz/images/1099/386/fuelnozzle.jpg?h=8f3025ea";
 $Turbo_image="http://www.dslautomotive.co.nz/images/1099/386/turbocharger2.jpg?h=681757e9";
+$ARB_image="http://www.dslautomotive.co.nz/images/1099/386/arbpage.jpg?h=ac96b9c9";
 
 $Banner_image="http://www.dslautomotive.co.nz/images/0/0/dc-45900201/header.png";
 $FootBanner_image="http://www.dslautomotive.co.nz/images/1100/259/hp-img-brands2.gif?h=e6fa9deb";
@@ -218,6 +219,12 @@ background-position: 50 50;
 }
 #turbos{
     background-image: url("<?=$Turbo_image?>");
+    background-size: 1100px 386px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ARB{
+    background-image: url("<?=$ARB_image?>");
     background-size: 1100px 386px;
     background-repeat: no-repeat;
     background-position: center;

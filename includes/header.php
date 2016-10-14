@@ -67,10 +67,8 @@ if ($conn->connect_error) {
        
             <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Testimonials</a></li>
-                </ul>
+              <a href="About.php">About</a>
+             
                 <?
           $sql3 = "SELECT ID, pagename, link FROM Pages";
 $result = $conn->query($sql3);
