@@ -17,19 +17,12 @@
 
     
 
-$servername = "fdb7.biz.nf";
-$username = "1989551_db";
-$password = "mullamoo2";
-$dbname = "1989551_db";
-
-/*local conx settings
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
-$dbname = "myDatabase";
+$dbname = "DSL_db";
 $host = 'localhost';
 $port = 3306;
-*/
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -77,7 +70,7 @@ if ($conn->connect_error) {
               <a href="About.php">About</a>
              
                 <?
-          $sql3 = "SELECT ID, pagename, link FROM DSL_pages";
+          $sql3 = "SELECT ID, pagename, link FROM Pages";
 $result = $conn->query($sql3);
 if ($result->num_rows > 0) {
     // output data of each row
