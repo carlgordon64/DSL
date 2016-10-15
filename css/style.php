@@ -473,6 +473,27 @@ padding:0px;
   }
 
 @media screen and (max-width: 967px) {
+#service-teaser{
+  width:70%;
+  height:335px;
+min-width:330px;
+  background:#e0e0e0;
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+  margin:auto;
+  cursor:pointer;
+
+}
+#teaser-text{
+  
+  width:70%;
+  margin-bottom:10px;
+}
+.enquire{
+  width:70%;
+min-width:330px;  
+}
 textarea {
   width: 60%;
 }

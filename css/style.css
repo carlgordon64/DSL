@@ -4180,7 +4180,8 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 960px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -4895,7 +4896,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+/*DECIDES WHEN TO SWITCH TO VERTICAL */
+@media (min-width: 1080px) {
   .navbar-nav {
     float: none;
     margin: 0;
@@ -5072,7 +5074,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: #1b1f20;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -5092,13 +5094,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #1b1f20;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: #1b1f20;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -5113,7 +5115,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7;
+    background-color: #1b1f20;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -7459,8 +7461,8 @@ font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 padding-top:20px; 
 padding-bottom:20px; 
-padding-left:30px;
-padding-right:30px;  
+padding-left:15px;
+padding-right:15px;  
 text-transform: capitalize;
 }
 .navbar-default .navbar-nav > .active >a,

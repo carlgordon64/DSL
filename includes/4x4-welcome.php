@@ -192,7 +192,7 @@ ARB’s engineers have designed an extensive range of accessories and recovery e
      <li>
     Engel Fridge / Freezers</li>
 <div class="breaker"></div>
-    <p style="font-size:16px;">For ARB's 2015 online catalogue click here.  To contact DSL Automotive for supply and installation of ARB products please enquire here.</p>
+    <p style="font-size:16px;">For ARB's 2016 online catalogue <a href="http://www.arb.com.au/home/catalogue/">click here.</a>  To contact DSL Automotive for supply and installation of ARB products please  <a href="http://www.arb.com.au/home/catalogue/">enquire here.</a></p>
 
 </div>
 

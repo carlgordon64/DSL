@@ -14,7 +14,12 @@ $password = "6190";
 $dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
-//
+/*
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
+*/
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
@@ -158,7 +163,7 @@ Our technicians regularly travel to Australia to train in the ever evolving new 
 </div>
 
 <!-- END MECHANIC SERVICES BODY DIV-->
-<div class="breaker" style="background:#000;"></div>
+<div class="breaker" style="background:#000; width:85%; margin:auto; margin-top:10px; height:1px; margin-bottom:10px;"></div>
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
@@ -229,7 +234,8 @@ Slide show of parts</p>
 </div>
 </div>
 <!-- END MECHANIC SERVICES BODY DIV 2-->
-<div class="breaker" style="background:#000;"></div>
+<div class="breaker" style="background:#000; width:85%; margin:auto; margin-top:10px; height:1px; margin-bottom:10px;"></div>
+
 <!--Performance Car Tuning for precision and economy DIV-->
 <div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
