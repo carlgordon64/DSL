@@ -8,13 +8,20 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <?php
 	 
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
+
+/*local conx settings
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
-$dbname = "DSL_db";
+$dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
-session_start();
+*/
+
 date_default_timezone_set('NZ');
 $mydate =  date("d-m-Y") ;
 $Actualday =date('l', strtotime($mydate));

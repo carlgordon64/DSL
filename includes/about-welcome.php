@@ -7,28 +7,40 @@
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-	 <?php
-	 
+</head>
+
+<body >
+<?php
+
+
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
+
+/*local conx settings
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
 $dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
+*/
 
 
-//
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+}else
+{
+	//echo "DSL CONN TRUE";
 }
+error_reporting(0);
+// includes header
+
 ?>
-
-</head>
-
-<body >
-
 <!--body below-->
 <div style="width:100%;margin-top:-20px; background-color:#fff;">
 
@@ -83,7 +95,7 @@ if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO DSL_enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }

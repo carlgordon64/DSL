@@ -9,12 +9,19 @@
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	 <?php
 	 
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
+
+/*local conx settings
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
 $dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
+*/
 
 
 //

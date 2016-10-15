@@ -11,17 +11,21 @@
 
 <?php
 
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
 
+/*local conx settings
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
 $dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
-session_start();
-$ActiveUsername = $_SESSION['Username'];
-$ActivePassword = $_SESSION['Password'];
-$_SESSION['ID'] = "112233";
+*/
+
+//session_start();
 
 
 
