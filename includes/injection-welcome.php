@@ -29,12 +29,12 @@ if ($conn->connect_error) {
         <div id="resizer"style="">
 		<div class="row">
 <div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;color:white;">
-<p id="webfont_small"style="color:#2a035d; text-align:center;">Diagnose and repair of performance parts nationwide
+<p id="webfont_small"style=" text-align:center;">Diagnose and repair of performance parts nationwide
 Authorised dealer for all major fuel injection manufacturers</p>
-<p id="service_text"style="color:#2a035d; text-align:center;">
+<p id="service-text"style="color:#fff; text-align:center;">
 •  Specialists in diesel and petrol   •  In house chassis Dynamometer   • 
 </p>
-<p style="color:#2a035d; font-size:16px; text-align:center;">
+<p id="service-text"style="color:#fff; font-size:16px; text-align:center;">
 Performing automotive repairs,  electronic diagnostics,  performance car tuning, 
 diesel fuel injection, pump and turbocharger installation and  repairs. 
 		</p>
@@ -63,13 +63,13 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 </div>
 </div>
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-4" style="text-align:center;">
 	 <form  method='post' action='index.php'  > 
         <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       </div>
-<div class="col-sm-4"> 
+<div class="col-sm-4" style="text-align:center;"> 
       <textarea id="styled" style="margin-top:8px;" name="details" placeholder="Details"></textarea>
 
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
@@ -97,7 +97,7 @@ echo "<p>Please fill out details<p>";
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-12" style="padding-left:40px;">
+	<div class="col-sm-12" id="leftPad">
 
 <p id="webfont_small" style="color:#2a035d">
 	Bosch Diesel Service Centre
@@ -122,7 +122,7 @@ DSL Automotive is certified for Test Bench type BOSCH 815kmm - achieved tooling 
 </div>
 
 <!-- END MECHANIC SERVICES BODY DIV-->
-<div class="breaker" style="background:#000;"></div>
+<div class="breaker" style="background:#000; width:85%; margin:auto; margin-top:10px; height:1px; margin-bottom:10px;"></div>
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
@@ -171,14 +171,14 @@ Slide show of parts</p>
   </a>
 </div>
     </div>
-<p style="font-size:16px; padding:20px;">Get up to 20% more torque with a Steinbauer  power enhancement module for passenger vehicles and up to 50% more torque with the Defender Kit Turbo-charger upgrade and improve the performance of your diesel engine.  Steinbauer modules don't change rail pressure, the performance enhancement is achieved by changing the injection duration. This method is the same way the system was originally designed to operate, also allowing precise fuel control throughout the full rpm range of the engine.</p>
+<p style="font-size:16px; padding:20px; padding-top:10px;">Get up to 20% more torque with a Steinbauer  power enhancement module for passenger vehicles and up to 50% more torque with the Defender Kit Turbo-charger upgrade and improve the performance of your diesel engine.  Steinbauer modules don't change rail pressure, the performance enhancement is achieved by changing the injection duration. This method is the same way the system was originally designed to operate, also allowing precise fuel control throughout the full rpm range of the engine.</p>
 </div>
 <p style="font-size:16px; text-align:center; padding:20px;">For more information about Steinbauer modules contact DSL Automotive today.</p>
 </div>
 </div>
 </div>
 <!-- END MECHANIC SERVICES BODY DIV 2-->
-<div class="breaker" style="background:#000;"></div>
+<div class="breaker" style="background:#000; width:85%; margin:auto; margin-top:10px; height:1px; margin-bottom:10px;"></div>
 <!--Performance Car Tuning for precision and economy DIV-->
 <div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">

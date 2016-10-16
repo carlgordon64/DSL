@@ -33,12 +33,12 @@ if ($conn->connect_error) {
 <div style="width:100%;margin-top:-20px; background-color:#fff;">
 
 	<div class="row">
-	<div class="col-sm-8">
-		<p id="webfont_small">
+	<div class="col-sm-8" id="leftPad">
+		<p id="webfont">
 			DSL Automotive is the longest standing authorised 
 BOSCH Service Centre in the Hawke's Bay
 		</p>
-<p id="webfont_tiny" style="color:2a035d">
+<p id="webfont_tiny2" style="color:2a035d">
 		For over 35 years DSL Automotive has been committed to keeping you in power
 </p>
 <p style="font-size:16px;">
@@ -46,7 +46,7 @@ BOSCH Service Centre in the Hawke's Bay
 </p>
 
 <div style="width:100%; max-width:750px; margin:auto;">
-<div style="width:100%; margin:auto; height:269px; background:#000; background-image:url('http://www.dslautomotive.co.nz/images/750/269/dslshopfront.jpg?h=e699006c');"></div>
+<div id="aboutImg"></div>
 	</div>
 	<br>
 	<p style="font-size:16px;">
@@ -83,7 +83,7 @@ if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO DSL_enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }

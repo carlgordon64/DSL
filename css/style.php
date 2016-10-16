@@ -473,6 +473,30 @@ padding:0px;
   }
 
 @media screen and (max-width: 967px) {
+#mechanic{
+    background-image: url("<?=$Mechanic_image?>");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#injection{
+    background-image: url("<?=$Injection_image?>");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#turbos{
+    background-image: url("<?=$Turbo_image?>");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#ARB{
+    background-image: url("<?=$ARB_image?>");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #service-teaser{
   width:70%;
   height:335px;
@@ -517,10 +541,7 @@ textarea {
 background-position: center;
 
   }
-  #webfont{
-    transition:0.8s ease all;
-    font-size: 60px;
-  }
+ 
    #webfont_small{
     transition:0.8s ease all;
     font-size: 32px;
@@ -534,7 +555,7 @@ background-position: center;
  
 .move4{
   text-align:center;
-  padding:20px;
+  padding:10px;
 }
 .move5{
   text-align:center;
@@ -550,6 +571,7 @@ transition:0.5s ease all;
 
 /*small*/
 @media screen and (max-width: 767px) {
+
 #resizer{
   width:100%; height:auto;
 }
@@ -615,7 +637,7 @@ padding:0px;
   padding-top:0px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 455px) {
 .contactDets{
   display:none;
 }

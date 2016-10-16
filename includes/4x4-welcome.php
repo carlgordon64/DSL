@@ -62,13 +62,13 @@ Don’t just fit any shock absorbers, fit ones that have been tuned specifically
 </div>
 </div>
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-4" style="text-align:center;">
 	 <form  method='post' action='index.php'  > 
         <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       </div>
-<div class="col-sm-4"> 
+<div class="col-sm-4" style="text-align:center;"> 
       <textarea id="styled" style="margin-top:8px;" name="details" placeholder="Details"></textarea>
 
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
@@ -96,7 +96,7 @@ echo "<p>Please fill out details<p>";
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-12" style="padding-left:40px;">
+	<div class="col-sm-12" id="leftPad">
 
 <p id="webfont_small" style="color:#2a035d">
 	DSL Automotive are Authorised Agents for ARB
@@ -159,12 +159,12 @@ ARB's products are developed and tested in the harshest outdoor conditions to en
     </div>
 <!-- ACCESSORIES -->
 
-<div class="col-sm-12" style="padding-left:40px;">
+<div class="col-sm-12" id="leftPad">
 
 <p id="webfont_small" style="color:#2a035d">
 	ARB 4x4 Accessories
 </p>
-<p  style=" font-size:16px; color:#2a035d">
+<p  style=" font-size:18px; color:#2a035d">
 ARB’s engineers have designed an extensive range of accessories and recovery equipment to suit your vehicle and any conditions you may encounter.
 </p>
      <li>Bull Bars / Winch Bars</li>

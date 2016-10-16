@@ -33,14 +33,16 @@ if ($conn->connect_error) {
 ?>
 <div style="height:120px; width:100%; ">
   <div class="contactDets">
+   <div style="width:30px; height:30px; background-image:url('img/ph-icon.png'); right:160px; top:70px; background-size:100% ,100%; position:absolute;"></div>
     <p style="font-size:24px;">Napier, Hawke’s Bay</p>
     <p style="font-size:16px;">NZ Nationwide Service</p>
     <p style="font-size:24px;">06 843 5287</p>
   </div>
-  <div style="width:287px; height:120px;background-image:url('img/Dsl_Logo.png');" id="Logo">
+
+  <a href="index.php"><div style="width:287px; height:120px;background-image:url('img/Dsl_Logo.png');" id="Logo">
  
-  </div>
-  <div style="position:absolute; left:287px; top:8px; width:255px; height:120px; border:none; background-image:url('img/Banner_sponsors.png');" id="Sponsors">
+  </div></a>
+  <div style="position:absolute; left:287px; top:2px; width:255px; height:120px; border:none; background-image:url('img/Banner_sponsors.png');" id="Sponsors">
  
   </div>
 

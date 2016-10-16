@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.php">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body style="margin-bottom:0px;">
+<body style="margin-bottom:0px;margin-top:0px;">
 
 <?php
 

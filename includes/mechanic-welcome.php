@@ -48,6 +48,7 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 		        <a id='serviceEnq' style="cursor:pointer;">Make an Enquiry</a>
 </div>
 		       </form>
+    
 		     <h4 style="color:white; font-size:20px;">06 843 5287</h4>
 		        </div>
 		        </div></div>
@@ -64,17 +65,17 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 <p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
 <div id="teaser-text" style="text-align:left;">
-<p id="webfont_tiny" style="color:#2a035d;">Privacy Policy<p>
+<p id="webfont_tiny" style="color:#2a035d; font-size:14px;">Privacy Policy<p>
 </div>
 </div>
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-4" style="text-align:center;">
 	 <form  method='post' action='index.php'  > 
         <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       </div>
-<div class="col-sm-4"> 
+<div class="col-sm-4" style="text-align:center;"> 
       <textarea id="styled" style="margin-top:8px;" name="details" placeholder="Details"></textarea>
 
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
@@ -102,7 +103,7 @@ echo "<p>Please fill out details<p>";
 <!--MECHANIC SERVICES BODY DIV-->
 <div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-8" style="padding-left:40px;">
+	<div class="col-sm-8" id="leftPad">
 <p id="webfont_small" style="color:#2a035d">
 	DSL Automotive provides professional vehicle servicing and repairs
 </p>
@@ -239,7 +240,7 @@ Slide show of parts</p>
 <!--Performance Car Tuning for precision and economy DIV-->
 <div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-12" style="padding-left:10px;">
+	<div class="col-sm-12" id="leftPad">
 <p id="webfont_small" style="color:#2a035d">
 	Performance Car Tuning for precision and economy
 </p>

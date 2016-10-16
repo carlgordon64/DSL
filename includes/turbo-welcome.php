@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 		<div class="row">
 <div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;color:white;">
 <p id="webfont_small"style="color:#fff; text-align:center;">Turbochargers - Sales, Service, Performance Tuning, Overhauling</p>
-<p id="service_text"style="color:#fff; text-align:center;">
+<p id="service-text"style="color:#fff; text-align:center;">
 •  Garrett Turbos  •   Holset Turbo  •   Turbochargers NZ  •
 </p>
 <p style="color:#fff; font-size:16px; text-align:center;">
@@ -62,13 +62,13 @@ upgrading and supply of new turbochargers contact DSL Automotive today.
 </div>
 </div>
 <div class="row">
-<div class="col-sm-4">
+<div class="col-sm-4" style="text-align:center;">
 	 <form  method='post' action='index.php'  > 
         <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       </div>
-<div class="col-sm-4"> 
+<div class="col-sm-4" style="text-align:center;"> 
       <textarea id="styled" style="margin-top:8px;" name="details" placeholder="Details"></textarea>
 
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
@@ -94,9 +94,9 @@ echo "<p>Please fill out details<p>";
 </div>
 
 <!--MECHANIC SERVICES BODY DIV-->
-<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
+<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:50px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
-	<div class="col-sm-12" style="padding-left:40px;">
+	<div class="col-sm-12" id="leftPad">
 
 <p id="webfont_small" style="color:#2a035d">
 	Garrett Turbo - Sales and Service

@@ -33,27 +33,11 @@ img {
     margin: auto;
     text-align: center;
 }
+#divId{
 
-#dogdata{
-  background-color: transparent;
+  padding-left:0px; text-align:left;
 }
-.dogType{
-  background-color:rgb(128,195,50);
 
-  padding:10px; 
-  padding-bottom:0px;
-  width:90%; 
-  margin:auto;
-}
-.dogType p{
-  font-size: 20px;
-}
-.dogType div{
-
-  background-color:#fff; 
-  padding:20px; 
-  margin:auto;
-}
 /*layo is the div/container holding my projects, it should expand when see more is pressed*/
 .layo{
   background-color: transparent;
@@ -7310,6 +7294,10 @@ button.close {
 
 
 /** ADVANCED STYLING**/
+  #aboutImg{
+
+    width:100%; margin:auto; height:269px; background-position: center; background:#000; background-image:url('http://www.dslautomotive.co.nz/images/750/269/dslshopfront.jpg?h=e699006c');
+  }
 
 .modal-content{
 
@@ -7422,7 +7410,8 @@ background-color: transparent;
 
 }
 li{
-  font-size:18px;
+  color:#1b1f20;
+  font-size: 16px;
   margin-left: 20px;
 }
 /*CUSTOMHEADER*/
@@ -7826,10 +7815,11 @@ text-align: center;
   #webfont{
     /*font-family: 'Comfortaa', cursive;*/
     /*font-family: 'Quicksand', sans-serif;*/
-     font-family: 'Nixie One', cursive;
-    text-shadow: 4px 4px 4px rgba(0,0,0,0.9);
-    font-size: 62px;
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2A035D;
 
   }
    #webfont2{
@@ -7849,7 +7839,17 @@ text-align: center;
     padding-bottom: 10px;
     color: #2A035D;
   }
+
   #webfont_tiny{
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2A035D;
+  }
+  #webfont_tiny2{
     /*font-family: 'Comfortaa', cursive;*/
     /*font-family: 'Quicksand', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
@@ -7951,6 +7951,19 @@ color: #000;
 
 /*small SCALE*/
 @media screen and (max-width: 767px) {
+  #aboutImg{
+
+    width:100%; 
+    background-position:left; 
+    margin:auto; 
+    height:269px; 
+    background:#000; 
+    background-image:url('http://www.dslautomotive.co.nz/images/750/269/dslshopfront.jpg?h=e699006c');
+  }
+  #leftPad{
+   padding-left:10px;
+   padding-right:10px;
+  }
   #myCarousel{
   margin-left:-10px;
 }
@@ -8073,6 +8086,10 @@ height: auto;
   }
   /*MED TO LARGE SCALE*/
   @media screen and (min-width: 767px) {
+    #leftPad{
+   padding-left:30px;
+   padding-right:30px;
+  }
    #webfont_sidebar{
     transition:0.8s ease all;
     /*font-family: 'Comfortaa', cursive;*/
