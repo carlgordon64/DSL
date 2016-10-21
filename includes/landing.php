@@ -78,8 +78,12 @@ if ($conn->connect_error) {
 
 <p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
-<div id="teaser-text" style="text-align:left;">
-<a href="#"><p id="webfont_tiny" style="color:#2a035d; font-size:12px; text-align:center;">Privacy Policy<p></a>
+<div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
+<button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">
+  Privacy Policy
+</button>
+
+<!-- Button trigger modal end-->
 </div>
 </div>
 <div class="row" class="first">
@@ -116,6 +120,10 @@ echo "<p>Please fill out details<p>";
 </div>
 </div>
 </div>
+
+<?
+include("includes/modal-exe.php");
+?>
 <div class="row" style=" text-align:center; background:#fff; overflow-x:scroll; padding-top:20px;padding-bottom:20px;">
 <div style="height:259px; width:1100px; margin:auto;" id="dslfootbanner">
   </div>

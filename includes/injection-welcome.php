@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 </head>
 <body id="stylebod">
 <!--body below-->
-<div id="injection"style="width:95%; margin:auto;margin-top:-20px; background-color:#2a035d;">
+<div id="injection"style="width:100%; margin:auto;margin-top:-20px; background-color:#2a035d;">
 <div id="welcometint">
         <div id="resizer"style="">
 		<div class="row">
@@ -49,7 +49,7 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 		</div>
 		</div>
 </div>
-  <div id='item2' class="first"style="width:95%;max-width:1045px; margin:auto; height:auto; background:#f5e901;" >
+  <div id='item2' class="first"style="width:100%;max-width:1100px; margin:auto; height:auto; background:#f5e901;" >
 <div class="row" style="margin:auto; padding:20px; ">
 <div class="col-sm-4">
 <div id="teaser-text" style="text-align:left;">
@@ -58,8 +58,11 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 <div id="teaser-text" style="text-align:left;">
 <p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
-<div id="teaser-text" style="text-align:left;">
-<p id="webfont_tiny" style="color:#2a035d;">Privacy Policy<p>
+<div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
+<button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">
+  Privacy Policy
+</button>
+<!-- Button trigger modal end-->
 </div>
 </div>
 <div class="row">
@@ -216,7 +219,9 @@ For more information about our diesel fuel injection service or our mechanic and
 </div>
 
 <!-- END MECHANIC SERVICES BODY DIV 2-->
-
+<?
+include("includes/modal-exe.php");
+?>
 </body>
 <script>
 $(function() {

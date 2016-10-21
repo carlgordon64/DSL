@@ -40,21 +40,24 @@ error_reporting(0);
 include ("includes/header.php");
 //WELCOME IMG BANNER
 ?>
-<div style="max-width: 1100px;
+<div style="max-width: 1208px;
   margin:auto;">
 <?
-include ("includes/injection-welcome.php");
+include ("includes/testimonials.php");
+//MAIN INDEX CONTENT
 //FOOTER
 ?>
-
+</div>
 </div>
 <?
 include ("includes/footer.php");
 
 ?>
+
 </div>
 </body>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" ></script>
 <script src="js/isotope-docs.min.js"></script>
+
 </html>

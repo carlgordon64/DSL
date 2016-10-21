@@ -547,10 +547,12 @@ background-position: center;
     font-size: 32px;
     color: white;
   }
+  /*
   #webfont_tiny{
     transition:0.8s ease all;
     color: white;
   }
+  */
   /*EARLY SMALL*/
  
 .move4{

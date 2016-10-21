@@ -29,7 +29,7 @@ if ($conn->connect_error) {
 </head>
 <body id="stylebod">
 <!--body below-->
-<div id="mechanic"style="width:95%; margin:auto;margin-top:-20px; background-color:#2a035d;">
+<div id="mechanic"style="width:100%; margin:auto;margin-top:-20px; background-color:#2a035d;">
 <div id="welcometint">
         <div id="resizer"style="">
 		<div class="row">
@@ -55,7 +55,7 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 		</div>
 		</div>
 </div>
-  <div id='item2' class="first"style="width:95%;max-width:1045px; margin:auto; height:auto; background:#f5e901;" >
+  <div id='item2' class="first"style="width:100%;max-width:1100px; margin:auto; height:auto; background:#f5e901;" >
 <div class="row" style="margin:auto; padding:20px; ">
 <div class="col-sm-4">
 <div id="teaser-text" style="text-align:left;">
@@ -64,8 +64,11 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 <div id="teaser-text" style="text-align:left;">
 <p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
-<div id="teaser-text" style="text-align:left;">
-<p id="webfont_tiny" style="color:#2a035d; font-size:14px;">Privacy Policy<p>
+<div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
+<button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">
+  Privacy Policy
+</button>
+<!-- Button trigger modal end-->
 </div>
 </div>
 <div class="row">
@@ -101,7 +104,7 @@ echo "<p>Please fill out details<p>";
 </div>
 
 <!--MECHANIC SERVICES BODY DIV-->
-<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
+<div class="row" style="width:100%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-8" id="leftPad">
 <p id="webfont_small" style="color:#2a035d">
@@ -280,7 +283,9 @@ Or find out more information about DSL Automotive's fuel injection and diesel po
 </div>
 
 <!-- END MECHANIC SERVICES BODY DIV 2-->
-
+<?
+include("includes/modal-exe.php");
+?>
 </body>
 <script>
 $(function() {

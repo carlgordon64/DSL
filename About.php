@@ -18,10 +18,6 @@ $password = "6190";
 $dbname = "myDatabase";
 $host = 'localhost';
 $port = 3306;
-session_start();
-$ActiveUsername = $_SESSION['Username'];
-$ActivePassword = $_SESSION['Password'];
-$_SESSION['ID'] = "112233";
 
 
 

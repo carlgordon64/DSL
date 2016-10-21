@@ -11,6 +11,11 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Play:700" rel="stylesheet"> 
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript">  
+        $(document).ready(function () {  
+            $('.dropdown-toggle').dropdown();  
+        });  
+   </script> 
 </head>
 <body >
 <?php
@@ -49,7 +54,7 @@ if ($conn->connect_error) {
 
 </div>
 <div style="height:auto;padding:0px;min-height:50px; overflow:hidden; width:100%; background:#fff">
-  <p id="automotive">AUTOMOTIVE</p> <p id="autoalttext"style="position:absolute; z-index:100; left:290px; top:136px;">Specialists in Diesel Injection, turbochargers and diagnostics for over 35 years</p>
+  <p id="automotive">AUTOMOTIVE</p> <p id="autoalttext"style="position:absolute; z-index:100; left:290px; top:130px;">Specialists in Diesel Injection, turbochargers and diagnostics for over 35 years</p>
 
 </div>
       <nav class="navbar navbar-default" role="navigation" >
@@ -68,8 +73,15 @@ if ($conn->connect_error) {
           <ul class="nav navbar-nav">
        
             <li><a href="index.php">Home</a></li>
-            <li class="dropdown">
-              <a href="About.php">About</a>
+           
+               <li class="dropdown">
+                <a href="About.php">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="About-more.php">Testimonials</a></li>
+            </ul>
+          </li>
+               <li>
+                   
              
                 <?
           $sql3 = "SELECT ID, pagename, link FROM Pages";

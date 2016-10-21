@@ -63,7 +63,75 @@ BOSCH Service Centre in the Hawke's Bay
 </p><p style="font-size:16px;">
 We have  partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
 </p>
+<p id="webfont_tiny" style="color:2a035d">
+	Authorised Agents for ARB 4x4 accessories in Hawke's Bay
+</p><p style="font-size:16px;">
+We have  partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
+</p>
+<p id="webfont_tiny" style="color:2a035d">
+	Continual training to keep up with performance technology
+</p><p style="font-size:16px;">
+We have  partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
+</p>
+<p id="webfont_tiny" style="color:2a035d">
+	DSL Automotive has invested in top quality equipment so your car performs it's best
+</p><p style="font-size:16px;">
+We have  partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
+</p>
+<div class="breaker"></div>
+
+<p id="webfont_tiny" style="color:2a035d">
+Community Support</p><p style="font-size:16px;">
+We have  partnered with WRC Developments and can offer full tuning facilities for Subaru and Mitsubishi vehicles using EcuTek tuning software also tuning available for Holden, Ford, Chevy, Jeep and Chrysler using HP tuners software.
+</p>
+<div class="breaker"></div>
+<p id="webfont_tiny" style="color:2a035d">
+DSL Automotive Environmental Achievements and Awards</p><p style="font-size:16px;">
+Your Choice Certificate of Achievement, for protecting the water quality of the ‘County Drain’ - Hawke’s Bay Regional Council.
+<br><br>
+
+DSL Automotive is one of only two workshops in Hawke’s Bay - the awards are given to workshops that can prove they are trained in the proper handling and disposal of substances.
+<br><br>
+
+MTA Environment Award 2009 - Improvement Award, recognising DSL Automotive's positive contribution towards the environment.
+<br><br>
+MTA Environmental Standards - Certificate of Compliance - verifies DSL Automotive has successfully complied with MTA Environmental Standards.
+</p>
+<div class="breaker"></div>
+<p id="webfont_tiny" style="color:#2a035d;">
+DSL Automotive Crew</p>
+
+<p id="webfont_tiny" style="font-size:16px;"> Brent Gordon – Managing Director </p>
+<p style="font-size:16px;">
+Brent joined the DSL Group Ltd straight from school in 1977 as an apprentice.  He has been with the company ever since. Brent enjoys all forms of motorsport and has worked in many forms of motorsport from Karting, Drag racing, NZV8’s, Formula Pacific, F3000, NZ Super tourers & 24 hour of Le mans.
+</p>
+<br>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Specialties: </span> fuel injection, turbocharges, diesel motors</p>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Qualifications: </span> A grade Petrol & Diesel Technician</p>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Training: </span> AECS, Bosch , Zexel , Stanadyne , Delphi , Denso , Garrett</p>
+<br>
+<p id="webfont_tiny" style="font-size:16px;"> Eric Liddington – Technician </p>
+<p style="font-size:16px;">
+Eric joined DSL Automotive in January 2003.  He has been with the company for twelve years. Eric enjoys any “off-road” or “4x4” events and is a member of the Hawkes Bay Four Wheel Drive Club.
+</p>
+<br>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Specialties: </span> fuel injection, turbocharges</p>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Qualifications: </span> A grade Petrol & Diesel Technician</p>
+<br>
+<p id="webfont_tiny" style="font-size:16px;">Gibson Tout – Apprentice Mechanic</p>
+<p style="font-size:16px;">
+Gibson came to DSL Automotive as a Gateway student from Tamatea High School in 2013.  We were so impressed with him we offered him an apprenticeship and he joined the company in May 2013. Gibson enjoys speedway, cars, truck and bikes – anything with wheels and an engine.</p>
+<br>
+<p style="font-size:16px; color:#2a035d;"><span style="font-size:18px; color:#000;">Qualifications: </span>Currently undertaking MITO Light Vehicle qualifications</p>
+	
+<div class="breaker"></div>
+<p id="webfont_tiny" style="font-size:16px;"> Talk to DSL Automotive about...</p>
+<div class="col-sm-4"><p id="webfont_tiny" style="font-size:16px;"><a href="Mechanic-services.php">Professional Mechanic Services</a></p></div>
+<div class="col-sm-4"><p id="webfont_tiny" style="font-size:16px;"><a href="Injection-services.php">Diesel Injection service and repairs</a></p></div>
+<div class="col-sm-4"><p id="webfont_tiny" style="font-size:16px;"><a href="4x4-Accessories.php">ARB 4x4 Accessories and Equipment</a></p></div>
+
 	</div>
+	
 	
 	<div class="col-sm-4">
 		<div style="height:1000px; width:100%; background:#e0e0e0; padding:20px;">
