@@ -82,7 +82,7 @@ if ($conn->connect_error) {
                    
              
                 <?
-          $sql3 = "SELECT ID, pagename, link FROM Pages";
+          $sql3 = "SELECT ID, pagename, link FROM DSL_Pages";
 $result = $conn->query($sql3);
 if ($result->num_rows > 0) {
     // output data of each row

@@ -83,7 +83,7 @@ if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO DSL_enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }
