@@ -9,19 +9,10 @@
 </head>
 <body style="margin-bottom:0px;margin-top:0px;">
 <?php
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "myDatabase";
-$host = 'localhost';
-$port = 3306;
-session_start();
-$ActiveUsername = $_SESSION['Username'];
-$ActivePassword = $_SESSION['Password'];
-$_SESSION['ID'] = "112233";
-
-
-
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {

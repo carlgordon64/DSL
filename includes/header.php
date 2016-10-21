@@ -22,12 +22,10 @@
 
     
 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
