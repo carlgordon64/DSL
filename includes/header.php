@@ -19,9 +19,6 @@
 </head>
 <body >
 <?php
-
-    
-
 $servername = "fdb7.biz.nf";
 $username = "1989551_db";
 $password = "mullamoo2";
@@ -82,7 +79,7 @@ if ($conn->connect_error) {
                    
              
                 <?
-          $sql3 = "SELECT ID, pagename, link FROM DSL_Pages";
+          $sql3 = "SELECT ID, pagename, link FROM DSL_pages";
 $result = $conn->query($sql3);
 if ($result->num_rows > 0) {
     // output data of each row
