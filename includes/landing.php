@@ -6,35 +6,21 @@
 <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-	 <?php
 	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
-
-date_default_timezone_set('NZ');
-$mydate =  date("d-m-Y") ;
-$Actualday =date('l', strtotime($mydate));
-//
-$enquire= $_POST['enquireSub'];
-$firstname=$_POST['firstname'];
-$email=$_POST['email'];
-$cellnumber=$_POST['cellnumber'];
-$details=$_POST['details'];
-
+</head>
+<body style="margin-top:0px;">
+	 <?php
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
 //
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
 ?>
-</head>
-<body style="margin-top:0px;">
 <!--SERVICE TEASERS-->
 <div style="width:100%;  margin-top:0px; background-color:#ffffff;">
 <div class="row" style="text-align:center; padding-top:20px; padding-bottom:20px;">
@@ -82,7 +68,6 @@ if ($conn->connect_error) {
 <button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">
   Privacy Policy
 </button>
-
 <!-- Button trigger modal end-->
 </div>
 </div>

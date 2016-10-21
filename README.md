@@ -1,6 +1,9 @@
 # DSL
 DSL AUTOMOTIVE - dslautomotive.co.nf
 
+BRANCH onlineVer = ONLINE VERSION of site;
+has different connection variables for connecting to actual server.
+
 Big developments to responsivness, especially collapsable enquiry forms.
 Phone icon added to banner and early response added to navbar.
 All service page image welcome banner more responsive at low res.

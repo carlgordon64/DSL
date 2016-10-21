@@ -7,16 +7,15 @@
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+</head>
+
+<body >
 	 <?php
-	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "myDatabase";
-$host = 'localhost';
-$port = 3306;
-
-
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
 //
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -24,11 +23,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-
-</head>
-
-<body >
-
 <!--body below-->
 <div style="width:100%;margin-top:-20px; background-color:#fff;">
 
@@ -37,7 +31,7 @@ if ($conn->connect_error) {
 		<p id="webfont">
 			Site Map
 		</p>
-		<ul id="siteMap">
+		<ul id="siteMapw">
 			<li><p>Home (Automotive Car Service Napier | engine nz car parts 4wd upgrades)</p></li>
 			<li><p>About (Automotive Car Service Napier | engine nz car parts 4wd upgrades)</p></li>
 			<p>- Testimonials (Auto Mechanic Napier | Car Inspection Services Hawkes Bay)</p>

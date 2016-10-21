@@ -8,30 +8,17 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body style="margin-bottom:0px;margin-top:0px;">
-
-<?php
-
-
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "myDatabase";
-$host = 'localhost';
-$port = 3306;
-
-
-
+	 <?php
+$servername = "fdb7.biz.nf";
+$username = "1989551_db";
+$password = "mullamoo2";
+$dbname = "1989551_db";
+//
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}else
-{
-	//echo "DSL CONN TRUE";
 }
-error_reporting(0);
-// includes header
-
 ?>
 
 <div style=" background:#2A035D;">
