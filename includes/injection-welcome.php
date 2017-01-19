@@ -98,7 +98,7 @@ echo "<p>Please fill out details<p>";
 </div>
 
 <!--MECHANIC SERVICES BODY DIV-->
-<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
+<div class="row" style="width:100%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" id="leftPad">
 
@@ -115,7 +115,7 @@ DSL Automotive is proud to be Hawke's Bay's longest standing Authorised Bosch Se
 Bosch is the biggest car parts manufacturer in the world offering a wide range of vehicle parts and diagnostic equipment. Trust DSL Automotive for expert maintenance and repair of all diesel systems and makes. </p>
     </li>
     
-    <div class="breaker" style="width:95%;"></div>
+    <div class="breaker" style="width:100%;"></div>
     
     <p id="" style="color:#000; text-align:center;font-size:19px;">
 DSL Automotive is certified for Test Bench type BOSCH 815kmm - achieved tooling and testing equipment criteria. 
@@ -183,7 +183,7 @@ Slide show of parts</p>
 <!-- END MECHANIC SERVICES BODY DIV 2-->
 <div class="breaker" style="background:#000; width:85%; margin:auto; margin-top:10px; height:1px; margin-bottom:10px;"></div>
 <!--Performance Car Tuning for precision and economy DIV-->
-<div class="row" style="width:95%; background:#fff; margin:auto; padding-bottom:10px;">
+<div class="row" style="width:100%; background:#fff; margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" style="padding-left:10px;">
 <p id="webfont_small" style="color:#2a035d">

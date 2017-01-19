@@ -50,7 +50,7 @@ Don’t just fit any shock absorbers, fit ones that have been tuned specifically
 		</div>
 		</div>
 </div>
-  <div id='item2' class="first"style="width:95%;max-width:1100px; margin:auto; height:auto; background:#f5e901;" >
+  <div id='item2' class="first"style="width:100%;max-width:1100px; margin:auto; height:auto; background:#f5e901;" >
 <div class="row" style="margin:auto; padding:20px; ">
 <div class="col-sm-4">
 <div id="teaser-text" style="text-align:left;">
@@ -99,7 +99,7 @@ echo "<p>Please fill out details<p>";
 </div>
 
 <!--MECHANIC SERVICES BODY DIV-->
-<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:10px;">
+<div class="row" style="width:100%; background:#fff;  margin:auto; padding-bottom:10px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" id="leftPad">
 
@@ -116,7 +116,7 @@ ARB is New Zealand's largest supplier of 4×4 accessories with an export network
 <p id="" style="color:#2a035d;font-size:18px;">
 ARB's products are developed and tested in the harshest outdoor conditions to ensure they are durable and fit for purpose. To see the full range of ARB products click here.
     </p>
-    <div class="breaker" style="width:95%;"></div>
+    <div class="breaker" style="width:100%;"></div>
     <div id="myCarousel" style="max-width:100%;"class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">

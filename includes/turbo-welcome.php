@@ -97,7 +97,7 @@ echo "<p>Please fill out details<p>";
 </div>
 
 <!--MECHANIC SERVICES BODY DIV-->
-<div class="row" style="width:95%; background:#fff;  margin:auto; padding-bottom:50px;">
+<div class="row" style="width:100%; background:#fff;  margin:auto; padding-bottom:50px;">
 <div style="background:#fff; margin:auto;width:100%; text-align:left; ">
 	<div class="col-sm-12" id="leftPad">
 
@@ -110,7 +110,7 @@ Whether you're looking for turbochargers, performance kits, accessories or inter
 </p>
 
     
-    <div class="breaker" style="width:95%;"></div>
+    <div class="breaker" style="width:100%;"></div>
     
     <p id="webfont_tiny" style="color:#2a035d; font-size:19px;">
 <a href="https://turbobygarrett.com/turbobygarrett/boostadviser">Garrett Boost Adviser</a>
