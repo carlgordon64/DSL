@@ -14,7 +14,7 @@
         <h4 class="modal-title" id="myModalLabel">PRIVACY POLICY</h4>
       </div>
       <div class="modal-body">
-        <p id="webfont_tiny">We are committed to protecting your privacy.</p>
+        <p id="webfont_tiny" style="color:#2a035d;">We are committed to protecting your privacy.</p>
         <br>
         <p style="font-size:16px;">
           The information we collect about you helps us to clarify your needs so we can look after you better. We use this information to personalize your experience when you visit us but we do not sell this information to any other party. 
