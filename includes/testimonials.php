@@ -56,7 +56,7 @@ if ($conn->connect_error) {
 </div>
 		<div class="col-sm-4">
 		<div style="height:1000px; width:100%; background:#e0e0e0; padding:20px;">
-			<p id="webfont_tiny">Make an Enquiry..</p>
+			<p id="webfont_tiny" style="color:#2a035d;">Make an Enquiry..</p>
 		<p style="font-size:16px">
 		Fill out the form and we will contact you shortly or call us direct on 06 843 5287 to discuss your requirements
 </p>

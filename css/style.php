@@ -500,7 +500,7 @@ padding:0px;
 #service-teaser{
   width:70%;
   height:335px;
-min-width:330px;
+min-width:310px;
   background:#e0e0e0;
    background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -516,7 +516,7 @@ min-width:330px;
 }
 .enquire{
   width:70%;
-min-width:330px;  
+min-width:310px;  
 }
 textarea {
   width: 60%;
@@ -547,12 +547,12 @@ background-position: center;
     font-size: 32px;
     color: white;
   }
-  /*
+  
   #webfont_tiny{
     transition:0.8s ease all;
     color: white;
   }
-  */
+  
   /*EARLY SMALL*/
  
 .move4{
@@ -640,6 +640,31 @@ padding:0px;
   }
 }
 @media screen and (max-width: 455px) {
+#service-text{
+font-family: 'Montserrat', sans-serif;
+color:#fff;
+font-size: 16px;
+ 
+}
+ #webfont_small{
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
+
+  #webfont_tiny{
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+  }
 .contactDets{
   display:none;
 }

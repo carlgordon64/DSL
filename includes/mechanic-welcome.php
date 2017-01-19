@@ -62,7 +62,7 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 <p id="webfont_tiny" style="color:#2a035d;">Make an enquiry<p>
 </div>
 <div id="teaser-text" style="text-align:left;">
-<p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
+<p id="service-text" style="color:#2a035d;">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
 <div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
 <button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">

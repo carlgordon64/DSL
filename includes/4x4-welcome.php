@@ -33,10 +33,10 @@ if ($conn->connect_error) {
 <div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;color:white;">
 <p id="webfont_small"style="color:#fff; text-align:center;">Agents for ARB 4x4 accessories, 
 DSL Automotive supply and fit premium products </p>
-<p id="service_text"style="color:#fff; text-align:center;">
+<p id="service-text"style="color:#fff; text-align:center;">
 • Bull bars  •  Air Lockers  •  Winches  •  Suspension •  Roof racks  •  Snorkels  •  Shock Absorbers •
 </p>
-<p style="color:#fff; font-size:16px; text-align:center;">
+<p id="service-text" style="color:#fff; padding:20px; text-align:center;">
 Don’t just fit any shock absorbers, fit ones that have been tuned specifically for your 4x4 vehicle, it will handle better and be safer on and off road.
 		</p>
 		<form style="padding:20px; ">
@@ -57,7 +57,7 @@ Don’t just fit any shock absorbers, fit ones that have been tuned specifically
 <p id="webfont_tiny" style="color:#2a035d;">Make an enquiry<p>
 </div>
 <div id="teaser-text" style="text-align:left;">
-<p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
+<p id="service-text" style="color:#2a035d;">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
 <div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
 <button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">

@@ -33,7 +33,7 @@ if ($conn->connect_error) {
 <p id="service-text"style="color:#fff; text-align:center;">
 •  Garrett Turbos  •   Holset Turbo  •   Turbochargers NZ  •
 </p>
-<p style="color:#fff; font-size:16px; text-align:center;">
+<p id="service-text" style="color:#fff; padding:20px; text-align:center;">
  DSL Automotive are experts when it comes to Turbochargers. For diagnosis, full reconditioning,
 upgrading and supply of new turbochargers contact DSL Automotive today. 
 		</p>
@@ -55,7 +55,7 @@ upgrading and supply of new turbochargers contact DSL Automotive today.
 <p id="webfont_tiny" style="color:#2a035d;">Make an enquiry<p>
 </div>
 <div id="teaser-text" style="text-align:left;">
-<p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
+<p id="service-text" style="color:#2a035d;">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
 <div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
 <button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">

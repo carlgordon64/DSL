@@ -28,13 +28,13 @@ if ($conn->connect_error) {
 <div id="welcometint">
         <div id="resizer"style="">
 		<div class="row">
-<div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;color:white;">
-<p id="webfont_small"style=" text-align:center;">Diagnose and repair of performance parts nationwide
+<div class="col-sm-12" style="text-align:center; font-size:20px;padding:30px;">
+<p id="webfont_small"style=" color:white; text-align:center;">Diagnose and repair of performance parts nationwide
 Authorised dealer for all major fuel injection manufacturers</p>
 <p id="service-text"style="color:#fff; text-align:center;">
 •  Specialists in diesel and petrol   •  In house chassis Dynamometer   • 
 </p>
-<p id="service-text"style="color:#fff; font-size:16px; text-align:center;">
+<p id="service-text"style="color:#fff; text-align:center;">
 Performing automotive repairs,  electronic diagnostics,  performance car tuning, 
 diesel fuel injection, pump and turbocharger installation and  repairs. 
 		</p>
@@ -56,7 +56,7 @@ diesel fuel injection, pump and turbocharger installation and  repairs.
 <p id="webfont_tiny" style="color:#2a035d;">Make an enquiry<p>
 </div>
 <div id="teaser-text" style="text-align:left;">
-<p id="service-text">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
+<p id="service-text" style="color:#2a035d;">DSL Automotive is committed to keeping you in power. Contact us using the following form and we will get back to shortly. Alternatively, you can contact us directly on  06 843 5287 to discuss your requirements.<p>
 </div>
 <div id="teaser-text" style="text-align:center;"><!-- Button trigger modal -->
 <button type="button" style="margin:auto; text-align:center;"class="btn" data-toggle="modal" data-target="#myModal">

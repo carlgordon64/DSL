@@ -46,7 +46,7 @@ if ($conn->connect_error) {
 </div>
 	<br>
 	<div class="breaker" style="height:1px; width:95%;"></div>
-	<p id="service-text" style="text-align:center;">
+	<p id="service-text" style="text-align:center; color:#2a035d;">
 			DSL Automotive location Map
 		</p>
 		<!-- GOOGLE MAP API KEY= AIzaSyCIep4uCUwo6SUEXkhMrLtw7atRl1u7RIA -->
