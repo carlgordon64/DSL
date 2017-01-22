@@ -8,11 +8,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	 <?php
-$dbname ="php118796";
-$username ="php118796";
-$password ="aed7e9acb05e3f03890a8641687e2259";
-$servername ="localhost"; 
-$host = "localhost";
+$servername = "localhost";
+$username = "carlgordon";
+$password = "6190";
+$dbname = "myDatabase";
+$host = 'localhost';
+$port = 3306;
 /*
 $servername = "fdb7.biz.nf";
 $username = "1989551_db";
