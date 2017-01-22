@@ -20,14 +20,11 @@
 <body >
 <?php
 
-    
-
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
+$dbname ="php118796";
+$username ="php118796";
+$password ="aed7e9acb05e3f03890a8641687e2259";
+$servername ="localhost"; 
+$host = "localhost";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection

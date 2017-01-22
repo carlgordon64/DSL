@@ -9,12 +9,11 @@
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	 <?php
 	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "myDatabase";
-$host = 'localhost';
-$port = 3306;
+$dbname ="php118796";
+$username ="php118796";
+$password ="aed7e9acb05e3f03890a8641687e2259";
+$servername ="localhost"; 
+$host = "localhost";
 
 
 //

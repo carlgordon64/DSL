@@ -8,12 +8,11 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <?php
 	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
+$dbname ="php118796";
+$username ="php118796";
+$password ="aed7e9acb05e3f03890a8641687e2259";
+$servername ="localhost"; 
+$host = "localhost";
 
 date_default_timezone_set('NZ');
 $mydate =  date("d-m-Y") ;
