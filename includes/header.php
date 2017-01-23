@@ -23,10 +23,9 @@
 $servername = "localhost";
 $username = "carlgordon";
 $password = "6190";
-$dbname = "myDatabase";
+$dbname = "DSL_db";
 $host = 'localhost';
 $port = 3306;
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
