@@ -8,12 +8,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	 <?php
 	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
+$servername = "mysql6.openhost.net.nz";
+$username = "dslai_CarlGordon";
+$password = "Qt1i0d%9";
+$dbname = "dslair36506nz46867_myDatabase";
 
 date_default_timezone_set('NZ');
 $mydate =  date("d-m-Y") ;
@@ -107,7 +105,7 @@ if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO DSL_enquiry (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO email (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }

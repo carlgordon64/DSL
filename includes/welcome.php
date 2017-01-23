@@ -9,12 +9,10 @@
 	 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	 <?php
 	 
-$servername = "localhost";
-$username = "carlgordon";
-$password = "6190";
-$dbname = "DSL_db";
-$host = 'localhost';
-$port = 3306;
+$servername = "mysql6.openhost.net.nz";
+$username = "dslai_CarlGordon";
+$password = "Qt1i0d%9";
+$dbname = "dslair36506nz46867_myDatabase";
 
 
 //
