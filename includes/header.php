@@ -4,8 +4,8 @@
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-   <link rel="stylesheet" type="text/css" href="css/style.php"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/style.php">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
@@ -53,7 +53,7 @@ if ($conn->connect_error) {
   <p id="automotive">AUTOMOTIVE</p> <p id="autoalttext"style="position:absolute; z-index:100; left:290px; top:130px;">Specialists in Diesel Injection, turbochargers and diagnostics for over 35 years</p>
 
 </div>
-      <nav class="navbar navbar-default" role="navigation" >
+      <nav class="navbar navbar-default" role="navigation" style='background:#f5e901;' >
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header" style="margin:0px;">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

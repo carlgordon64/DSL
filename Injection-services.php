@@ -55,5 +55,4 @@ include ("includes/footer.php");
 </body>
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" ></script>
-<script src="js/isotope-docs.min.js"></script>
 </html>
