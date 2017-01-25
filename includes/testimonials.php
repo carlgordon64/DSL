@@ -58,19 +58,25 @@ if ($conn->connect_error) {
 		<p style="font-size:16px">
 		Fill out the form and we will contact you shortly or call us direct on 06 843 5287 to discuss your requirements
 </p>
- <form  method='post' action='About.php'  > 
+ <form  method='post' action='index.php'  > 
  <div style="max-width:400px; margin:auto;">
-        <input  type='text'style="width:100%;"id='enquireform' name='firstname' placeholder="First Name"> </input><br>
-        <input  type='text' style="width:100%;"id='enquireform'name='email'placeholder="Email"> </input><br>
-        <input  type='text' style="width:100%;" id='enquireform'name='cellnumber'placeholder="Number"> </input>
-       <textarea  style="margin-top:8px; width:100%;" name="details" placeholder="Details"></textarea>
+       <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
+                <input  type='text'id='enquireform' name='lastname' placeholder="Last Name"> </input><br>
+        <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
+        <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
+       <textarea style="margin-top:8px; width:100%;" name="details" placeholder="Details"></textarea>
 <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
-<?
+      </div>
+<div class="col-sm-4" style="text-align:center;"> 
+     
+      </form> 
+      <br>
+         <?
 if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO email (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO enquiry (Firstname,Lastname,Email,Cellnumber,Details) VALUES ('$firstname','$lastname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }

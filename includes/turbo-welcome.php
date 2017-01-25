@@ -66,7 +66,8 @@ upgrading and supply of new turbochargers contact DSL Automotive today.
 <div class="row">
 <div class="col-sm-4" style="text-align:center;">
 	 <form  method='post' action='index.php'  > 
-        <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
+          <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
+                <input  type='text'id='enquireform' name='lastname' placeholder="Last Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       </div>
@@ -76,12 +77,12 @@ upgrading and supply of new turbochargers contact DSL Automotive today.
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
       </form> 
       <br>
-      <?
+         <?
 if (isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO email (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO enquiry (Firstname,Lastname,Email,Cellnumber,Details) VALUES ('$firstname','$lastname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
     echo "<p>Enquiry Recieved<p>";
 }

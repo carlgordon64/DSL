@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +20,7 @@ $Actualday =date('l', strtotime($mydate));
 //
 $enquire= $_POST['enquireSub'];
 $firstname=$_POST['firstname'];
+$lastname=$_POST['lastname'];
 $email=$_POST['email'];
 $cellnumber=$_POST['cellnumber'];
 $details=$_POST['details'];
@@ -89,6 +91,7 @@ if ($conn->connect_error) {
 <div class="col-sm-4">
 	 <form  method='post' action='index.php'  > 
         <input  type='text'id='enquireform' name='firstname' placeholder="First Name"> </input><br>
+         <input  type='text'id='enquireform' name='lastname' placeholder="Last Name"> </input><br>
         <input  type='text' id='enquireform'name='email'placeholder="Email"> </input><br>
         <input  type='text' id='enquireform'name='cellnumber'placeholder="Number"> </input>
       
@@ -100,20 +103,37 @@ if ($conn->connect_error) {
         <input  type='submit' id='enquireSub' name='enquireSub'value="Submit"> </input>
       </form> 
       <br>
-      <?
-if (isset($enquire)){
+
+  
+
+      <?php 
+if(isset($enquire)){
 if (!empty($details)&&!empty($firstname)&&!empty($email)&&!empty($details)){
 
 //INSERT ENQUIRY TO DATABASE
-$sql5 = "INSERT INTO email (Firstname,Email,Cellnumber,Details) VALUES ('$firstname','$email','$cellnumber','$details')";
+$sql5 = "INSERT INTO email (Firstname,Lastname,Email,Cellnumber,Details) VALUES ('$firstname','$lastname','$email','$cellnumber','$details')";
            if ($conn->query($sql5) === TRUE) {
-    echo "<p>Enquiry Recieved<p>";
+
+        $to = "DSL@dslautomotive.nz"; // this is your Email address
+    $from = $email; // this is the sender's Email address
+    $first_name = $firstname;
+    $last_name = $lastname;
+    $subject = $details; //form submission
+    $subject2 = $details; //copy of form submission
+    $message = $first_name ." ". $last_name . " wrote the following:" . "\n\n" . $details . "\n\n" .$first_name."'s number: ".$cellnumber  ;
+    $message2 = "Here is a copy of your message to DSL " . $first_name . "\n\n" . $details;
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
 }
 }else{
 echo "<p>Please fill out details<p>";
 }
-}
-      ?>
+ }
+
+?>
 
 </div>
 </div>
